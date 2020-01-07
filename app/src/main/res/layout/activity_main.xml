@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/arur"
+    android:orientation="vertical"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#FFFFFF"
+        app:cardCornerRadius="4dp"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_marginTop="30dp"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="SIGN UP"
+                android:textSize="45dp"/>
+
+
+            <EditText
+                android:id="@+id/t1"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/ed"
+                android:layout_gravity="center_horizontal"
+                android:hint="Email"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                />
+
+            <EditText
+                android:id="@+id/t3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ed"
+                android:hint="Password"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/ed"
+                android:layout_marginTop="20dp"
+                android:hint="P.H"
+                android:textSize="20dp" />
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+            <CheckBox
+                android:id="@+id/admi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MENTOR"
+                android:textSize="20sp"
+                android:textStyle="normal"
+                />
+            <Spinner
+                android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50sp" />
+
+            <Button
+                android:id="@+id/b1"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bt"
+                android:text="SIGN UP"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/b2"
+                android:layout_width="100sp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bt"
+                android:text="SIGN IN"
+                android:textStyle="bold" />
+            <LinearLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/colorAccent"
+                
+                ></LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">db</string>
+    <string-array name="mentor">
+        <item>Select item</item>
+        <item>android</item>
+        <item>web development</item>
+        <item>ML</item>
+        <item>A.R V.R</item>
+    </string-array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="accepted">#59FF5C</color>
+    <color name="rejected">#FF2C2C</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#3BC8DA</color>
+    <color name="arur">#f1f5f8</color>
+</resources>

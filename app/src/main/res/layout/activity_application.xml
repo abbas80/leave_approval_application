@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".application"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/status"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:scrollbars="vertical"
+        android:text="Pending"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/my_msg"
+        android:scrollbars="vertical"
+        android:background="@drawable/lt"/>
+
+    <EditText
+        android:id="@+id/t1"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="150sp"
+
+        android:layout_marginRight="20dp"
+        android:hint="TYPE THE REASON"
+        android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"/>
+</LinearLayout>
